@@ -11,5 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "jsonwebtoken": "^8.5.1"
+  },
+  "homepage": "https://github.com/oywenjiao/wj-general-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oywenjiao/wj-general-tools.git"
   }
 }
