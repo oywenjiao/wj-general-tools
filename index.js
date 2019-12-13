@@ -1,3 +1,3 @@
-exports.testDemo = function() {
-    console.log("this is test demo!!!!!!");
+module.exports = {
+    Jwt: require('./lib/auth/Jwt')
 };
