@@ -1,0 +1,15 @@
+{
+  "name": "wj-general-tools",
+  "version": "1.0.0",
+  "description": "A collection of common tools in a node environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
