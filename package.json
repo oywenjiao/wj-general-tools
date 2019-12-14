@@ -9,13 +9,18 @@
   "keywords": [
     "auth",
     "tools",
-    "jwt"
+    "jwt",
+    "crypto",
+    "aes"
   ],
   "author": "oywenjiao",
   "license": "MIT",
   "bugs": "https://github.com/oywenjiao/wj-general-tools/issues",
   "dependencies": {
-    "jsonwebtoken": "^8.5.1"
+    "bluebird": "^3.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.1.0",
+    "redis": "^2.8.0"
   },
   "homepage": "https://github.com/oywenjiao/wj-general-tools#readme",
   "repository": {
