@@ -32,6 +32,17 @@ const logger = new Tools.Logger(config);
 logger.debug('this is debug info');
 ```
 
+> Use of Redis module
+```node
+const Tools = require('wj-general-tools');
+const redisClient = new Tools.Redis();
+let config = {host: '127.0.0.1', port: '6379'};
+redisClient = new Redis(config);
+redisClient.set('test', 11111);
+redisClient.expire('test');
+redisClient.get('test');
+```
+
 # Related Modules
 + [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) — JSON Web Token sign and verification
 + [log4js](https://log4js-node.github.io/log4js-node/) — Log debugging and output
